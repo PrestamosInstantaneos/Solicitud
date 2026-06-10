@@ -24,6 +24,13 @@ body {
     width: 90%;
 }
 
+.hero-image {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
 h1 {
     color: #1a73e8;
     margin-bottom: 1rem;
