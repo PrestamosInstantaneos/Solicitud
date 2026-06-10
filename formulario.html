@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Préstamo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Cuestionario de Solicitud</h2>
+        <p>Por favor, completa los siguientes datos para procesar tu solicitud.</p>
+        
+        <form action="#">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+            </div>
+
+            <div class="form-group">
+                <label for="monto">Monto que solicita</label>
+                <input type="number" id="monto" name="monto" placeholder="$0.00" required>
+            </div>
+
+            <div class="form-group">
+                <label for="empleo">Estado Laboral</label>
+                <select id="empleo" name="empleo">
+                    <option value="empleado">Empleado</option>
+                    <option value="autonomo">Autónomo / Freelance</option>
+                    <option value="desempleado">Desempleado</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-primary">Enviar Solicitud</button>
+        </form>
+        
+        <div style="margin-top: 1.5rem;">
+            <a href="index.html" style="color: #5f6368; font-size: 0.8rem;">Volver al inicio</a>
+        </div>
+    </div>
+</body>
+</html>
